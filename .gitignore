@@ -1,0 +1,29 @@
+# 依赖
+node_modules/
+vendor/
+
+# 构建产物
+dist/
+build/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# 日志与缓存
+*.log
+.cache/
+__pycache__/
+*.py[cod]
+
+# 环境变量与密钥
+.env
+.env.*
+!.env.example
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
